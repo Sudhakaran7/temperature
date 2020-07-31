@@ -1,0 +1,52 @@
+Steev is a building a weather app, so he wants a algorithm to calculate 
+the day of next warmth day than the current day, so he is asking you to 
+frame the algorithm.
+the temperature is given in the array you have to say that,
+how many days you would have to wait until a warmer temperature. 
+If there is no future day for which this is possible, put 0 instead
+Constraint: The length of temperatures will be in the range [1, 30000]. 
+Each temperature will be an integer in the range [30, 100]
+
+Input Description:
+Temperature in array
+
+Output description:
+how many days you would have to wait until a warmer temperature.
+
+Sample Input:
+67 78 92 56 47 63
+
+Sample Output:
+1 1 0 2 1 0
+
+Explanation:
+for the first temperature 67, we have to wait for 1 day to get next warmth day likewise,
+for 78-> 92 (1 day)
+for 92 (no days warmth than that)
+for 56-> 47,63 (2 days)
+for 47 -> 63 (1 day)
+for 63 (no days)
+
+Sample Input:
+23 12 45 78 74 76 99
+
+Sample Output:
+2 1 1 3 1 1 0
+
+Sample Input:
+34 56 72 33 45 12 9
+
+Sample Output:
+1 1 0 1 0 0 0
+
+Sample Input:
+56 74 23 99 77 66
+
+Sample Output:
+1 2 1 0 0 0
+
+Sample Input:
+33 76 12 18 15 19
+
+Sample Output:
+1 0 1 2 1 0
